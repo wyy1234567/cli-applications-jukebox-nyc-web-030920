@@ -32,7 +32,6 @@ def exit_jukebox
 end
 
 def run(songs)
-  while true do
     puts "Please enter a command:"
     response = gets.chomp
     if response == "help"
@@ -47,6 +46,6 @@ def run(songs)
     else
       puts "Invalid input"
     end
-  end
+
 end
   
